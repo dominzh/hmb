@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wd {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 10pt;
+	color: #404040;
+	font-family: SimSun;
+}
+
+table {
+	font-size: 10pt;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 500px;
+}
+
+td {
+	height: 25px;
+}
+
+.top {
+	border-bottom: 2px solid #AA0F7E;
+	margin: 5px 0 10px 0;
+}
+
+.top a {
+	font: 14px/14px "微软雅黑";
+	color: #888;
+}
+.wd .logo{
+	width:200px;
+	height:80px;
+}
+.divGoodsName {
+	font-size: 13pt;
+	font-weight: 900;
+	text-align: center;
+}
+
+.main {
+	padding: 16px;
+	border: 1px solid #EEE;
+	height: 403px;
+}
+
+.box {
+	height: 300px;
+	width: 300px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+.big {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: 0;
+	left: 310px;
+	overflow: hidden;
+	display: none;
+	z-index: 999;
+}
+
+.small {
+	position: relative;
+}
+
+.small img {
+	height: 300px;
+	width: 300px;
+}
+
+.big img {
+	width: 600px;
+	height: 600px;
+}
+
+.mask {
+	width: 100px;
+	height: 100px;
+	background: rgba(255, 255, 0, .4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: move;
+	display: none;
+}
+
+.big img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.divGoodsDesc {
+	/* float: left; */
+	position: relative;
+	top: -284px;
+	left: 359px;
+	/* right: -73px; */
+	width: 577px;
+}
+
+.spanPrice {
+	text-decoration: line-through;
+}
+
+.hr1 {
+	margin-left: 50px;
+	height: 1px;
+	color: #dcdcdc;
+}
+
+.price_n {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 20pt;
+}
+
+ul {
+	list-style: none;
+	margin-left: 45px;
+}
+
+li {
+	margin: 10px;
+}
+
+.divForm {
+	position: relative;
+	margin: 17px 0 0 36px;
+	padding: 20px;
+}
+
+.btncart {
+	width: 200px;
+	position: absolute;
+	top: 91px;
+	left: 8px;
+}
+
+#btn {
+	display: block;
+	margin: 25px 5px 10px 0;
+	background-color: #AA0F7E;
+	border: 1px solid #ececec;
+	color: #FFF;
+	font: 800 14px/36px "微软雅黑";
+	text-align: center;
+	height: 36px;
+	width: 146px;
+	position: absolute;
+	top: 55px;
+	left: 179px;
+}
+
+#btn:hover {
+	color: #FF6600;
+	height: 36px;
+	width: 146px;
+}
+
+#btnBuy {
+	display: block;
+	margin: 25px 5px 10px 0;
+	background-color: #AA0F7E;
+	border: 1px solid #aa0f7e;
+	color: #fff;
+	font: 800 14px/36px "微软雅黑";
+	text-align: center;
+	height: 36px;
+	width: 146px;
+	position: absolute;
+	top: -12px;
+	left: 179px;
+}
+
+#btnBuy:hover {
+	color: #FF6600;
+	height: 36px;
+	width: 146px;
+}

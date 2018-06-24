@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+div.bigBox{
+	text-align:center;
+	width:600px;
+	height: 350px;
+	margin: 10px auto;
+	border:1px solid #aaa;
+	border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color:#eee;
+    position:relative;
+}
+span.title{
+	background-color: #AA0F7E;
+	display: block;
+    height: 36px;
+    font: 14px/36px "微软雅黑";
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.form{
+	text-align:left;
+	margin:0 auto;
+}
+.nameDiv,.descDiv,.optionDiv{
+	position:absolute;
+}
+.nameDiv{
+    top: 75px;
+    left: 76px;
+}
+.descDiv{
+	top: 174px;
+    left: 76px;
+}
+.optionDiv{
+	top: 127px;
+    left: 76px;
+}
+#cname,#pid{
+    height: 28px;
+    width: 200px;
+    font: 14px/28px "微软雅黑";
+    padding-left: 5px;
+    color: #666;
+    outline: none;
+}
+.descDiv #desc{
+    width: 366px;
+    height: 108px;
+    resize: none;
+	position:absolute;
+	top: 23px;
+    left: 76px;
+    padding: 1px 5px;
+    font: 14px/20px "微软雅黑";
+    color: #666;
+    outline: none;
+}
+.subtn{
+	position:absolute;
+	bottom:15px;
+	left:90px;
+	border-radius:10px;
+	outline: none;
+}
+.backbtn{
+	position:absolute;
+	right:50px;
+	bottom:15px;
+	border-radius:10px;
+	outline: none;
+}
+.backbtn:hover,.subtn:hover{
+	color:#fff;
+	background-color: #AA0F7E;
+}	

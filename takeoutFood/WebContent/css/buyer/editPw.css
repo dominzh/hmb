@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+.wp{
+	width:1000px;
+	margin:0 auto;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+}
+input {
+	height: 30px;
+	float: left;
+	outline:none;
+}
+
+/* 头部导航 */
+.top {
+	position: relative;
+	height: 30px;
+	z-index:20;
+	margin-bottom:2px;
+}
+
+.divTop {
+	border-bottom: 1px solid #eee;
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.pwBox{
+	border-bottom:3px solid #aa0f7e;
+	position:relative;
+}
+.pwBox .logo{
+	width:200px;
+	height:80px;
+}
+span.pw{
+    color: #777;
+    position: absolute;
+    top: 44px;
+    font-size: 18px;
+    margin-left:20px;
+}
+/* 表单 */
+.fromBox{
+	position:relative;
+}
+.form{
+	border-bottom:3px solid #aa0f7e;
+	height:380px;
+}
+.fromBox span{
+	    display: block;
+    width: 80px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+div.loginpass,
+div.newpass,
+div.reloginpass,
+div.vCode,
+div.verifyCode,
+div.submit{
+	position:absolute;
+	width:800px;
+	
+}
+div.loginpass{
+	top:30px;
+}
+div.newpass{
+	top:75px;
+}
+div.reloginpass{
+	top:120px;
+}
+div.vCode{
+	top:165px;
+	height:40px;
+    padding-left: 94px;
+}
+div.verifyCode{
+	top:213px;
+}
+div.submit{
+	top:285px;
+	
+}
+div.vCode img{
+	float: left;
+}
+div.vCode a{
+	    display: block;
+    width: 150px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+div.submit #submit,.reset{
+	border-radius: 8px;
+    width: 70px;
+    color: #FFF; 
+    background-color: #aa0f7e;
+    height: 28px;
+    font-size: 16px;
+    margin-left: 74px;
+    border:0;
+    text-align:center;
+}
+div.submit #submit:hover,.reset:hover{
+	color: #FF6600;
+}
+.fromBox label.errorClass{
+	display: block;
+	float: left;
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 19px;
+    width: 230px;
+    color: #e50112;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+

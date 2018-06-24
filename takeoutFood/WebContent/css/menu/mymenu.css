@@ -1,0 +1,79 @@
+*{
+	padding:0;
+	margin:0;
+}
+.menuBar {
+	width: 998px;
+    color: #FFF;
+    font-family: "微软雅黑";
+    height: 66px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #c69a9a;
+}
+.menu{
+	width:120px;
+	height:100px;
+	float:left;
+}
+.barTitle {
+	height:35px;
+	width: 1000px;
+	position:absolute;
+}
+
+.barTitleText {
+}
+
+.menuTitleText {
+	line-height:30px;
+	margin-left: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.menuTitle {
+	background-color: #F44336;
+	width: 168px;
+	height: 35px;
+	cursor: pointer;
+	position:absolute;
+}
+
+.menuTitleIcon {
+	margin-top: 3px;
+	float: left;
+}
+
+.menuContent {
+	/*	height:150px;*/
+	background-color: #FFF;
+	display: none;
+	overflow: auto;
+	text-align: center;
+	width: 998px;
+	position: absolute;
+    top: 35px;
+    left: 0;
+    border: 1px solid #AA0F7E;
+}
+
+.barBottom {
+	background-color: rgb(25, 119, 176);
+	width: 1000px;
+}
+
+a {
+	color: #000000;
+	font-family: "微软雅黑";
+	TEXT-DECORATION: none; /*underline*/
+}
+
+.menuItem {
+	height: 30px;
+    width: 100px;
+    float: left;
+    overflow: hidden;
+    font: 14px/30px "微软雅黑";
+    cursor: pointer;
+}

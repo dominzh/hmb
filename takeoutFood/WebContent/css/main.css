@@ -1,0 +1,63 @@
+@charset "utf-8"; 
+* {
+	font-size: 14px;
+	margin:0;
+	padding:0;
+}
+.ct{
+	width: 1010px;
+	margin: 0 auto;
+}
+/* 头部导航 */
+.navtop{	
+	position:relative;
+	height:30px;
+	background: #D1D1D1;
+}
+.divTop{
+	border-bottom: 1px solid #AA0F7E;
+	height:30px;
+    width: 100%;
+	position:fixed;
+	top:0;
+}
+/* 搜索框 */
+.divSearch{
+	height:78px;
+	text-align:center;
+	border-bottom: 2px solid #AA0F7E;
+}
+/* 左菜单、 轮播图 */
+.bg{
+	background-color:#f4eff4;
+	height:458px;
+}
+.divCenter{
+	height:458px;
+	text-align:center;
+}
+.divCenterLeft{
+	position: relative;
+	height:68px;
+	width: 1000px;
+	margin-left: 50%;
+	left: -505px;
+	
+}
+.divCenterBox{
+	 width: 1000px;
+	 height:458px;
+}
+
+.dishes{
+	height:723px;
+	
+}
+.dishesList{
+	margin-top: 10px;
+	height:723px;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+}

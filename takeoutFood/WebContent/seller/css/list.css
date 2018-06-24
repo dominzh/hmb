@@ -1,0 +1,126 @@
+*{
+	padding:0;
+	margin:0;
+}
+/*空列表  */
+.emptyList{
+	text-align: center;
+    height: 150px;
+    margin:50px;
+}
+.spanEmpty {
+    margin-top: 50px;
+    font: 20px/25px "微软雅黑";
+}
+/* 排序 */
+.sort{
+	height: 32px;
+	border-bottom: 2px solid #636363;
+    margin: 0 0 10px 0;
+}
+.sort a{
+	display: block;
+	float: left;
+	height: 28px;
+	font: 14px/28px "微软雅黑";
+	margin: 4px 20px 0 0;
+	color: #000;
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+}
+.sort a:hover{
+	color: white;
+    background-color: #aa0f7e;
+	border-radius: 16px;
+} 
+.pic {
+	display: block;
+	position: relative;
+	margin-bottom: 3px;
+	width: 200px;
+	height: 200px;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+.inner {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	border: solid 1px #f5c14c;
+	padding: 16px 16px 0;
+	position: absolute;
+}
+
+li {
+	float: left;
+	width: 240px;
+	height: 303px;
+	line-height: 18px;
+	position: relative;
+}
+
+li div {
+	margin-bottom: 1px;
+	margin-left: 10px;
+}
+
+body,ul,li,p,img,div {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.price {
+	padding-bottom: 3px;
+	color: #878787;
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+#goodsname {
+	text-decoration: none;
+	color: #555555;
+	display: block;
+	overflow: hidden;
+	width: 200px;
+	font-family: Arial;
+}
+
+#goodsname:hover {
+	color: #FF6600;
+}
+.inner:hover{
+	border: solid 2px red;
+}
+.inner a {
+	color: #018BD3;
+}
+
+.inner a:hover {
+	color: #FF6600;
+}
+
+.inner a:VISITED {
+	color: #018BD3;
+}
+
+.divGoods {
+	position: relative;
+}
+.pagerBox{
+	position: relative;
+    height: 70px;
+}
+.pager{
+	position: fixed;
+    bottom: 0;
+    height:58px;
+    width: 100%;
+}

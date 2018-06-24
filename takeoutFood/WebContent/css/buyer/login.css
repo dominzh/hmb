@@ -1,0 +1,160 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	height: 80px;	
+	margin: 0 auto;
+	padding: 3px 80px;
+
+}
+
+.header img{
+	float: left;	
+	width: 200px;
+	height: 80px;
+
+}
+.header span{
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+	font: 25px/90px "微软雅黑";
+	color: #ABABAB;
+	letter-spacing: 6px;
+}
+
+.login1 {
+	height: 400px;
+	padding-top: 20px;	
+	background-attachment:fixed;
+	background-image:url('/takeoutFood/img/bg.jpg');
+	background-size: cover;
+}
+
+.login1 .login {
+	margin: 0 auto;
+	height: 380px;
+	width: 800px;	
+	
+	border-radius: 30px;
+	position: relative;
+	background: rgba(0, 0, 0, 0);
+}
+.login1 .login #tm{
+	opacity:1;
+}
+.log-title {
+	height: 50px;
+	text-align: center;
+	
+}
+.log-title span {
+	height: 51px;
+	line-height: 51px;
+	text-align: center;
+	font-size: 20px;
+	color:#AA0F7E;
+	letter-spacing: 6px;
+}
+.log-ct {
+	height: 250px;
+	position: relative;
+}
+.log-ct .pass,
+.log-ct .user,
+.log-ct .verifyCode,
+.log-ct .loginBtn {
+	float: left;
+	height: 36px;
+	margin: 0 20px 22px 230px;
+	position: absolute;
+	top: 24px;
+	left: 20px;
+	text-align: center;
+	padding-left:6px;
+}
+.log-ct .pass {
+	top: 82px;
+}
+
+.log-ct label {
+	float: left;
+}
+.log-ct label #msg{
+	float:right;
+}
+.log-ct .verifyCode{
+	top: 140px;
+}
+
+.log-ct .loginBtn:hover {
+	color:#FF6600;
+}
+.log-ct #verifyCode{
+	text-decoration: none;
+    display: block;
+    float: left;
+    line-height: 38px;
+    width: 84px;
+    outline:none;
+   
+}
+
+.log-ct #imgVerifyCode{
+	margin:0 1px 0 65px;
+	float: left;
+}
+.log-ct input {
+	padding-left: 6px;
+	float: left;
+	color: #B4B4B4;
+	font: 14px/38px "微软雅黑";
+	display: block;
+	width: 250px;
+	height: 38px;
+	border: 0;
+}
+
+.log-ct .loginBtn {
+	top: 203px;
+	width: 295px;
+	background-color: #AA0F7E;
+	color: #FFF;
+	font: 20px/36px "微软雅黑";
+	box-shadow: 0 0 5px #fff;
+	margin-left: 236px;
+	
+}
+
+.log-ft {
+	/* border-top: 1px solid #E4E4E4;  */
+	
+	padding: 0px 20px 10px 200px;
+	text-align: center;
+}
+
+.log-ft a {
+	color:#AA0F7E;
+	width:80px;
+	float:right;
+	margin: 0 225px;
+	display: block;
+	font-weight:bold;
+}
+a:hover {
+	color:#FF6600;
+}
+.login .error{
+	display: block;
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 19px;
+    color: #fe0505;
+}
+#msg{
+	width: 300px;
+    margin-left: 309px;
+}

@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+.topTitle {
+	width: 900px;
+	height: 30px;
+	margin: 2px 50px 10px 50px;
+	background-color: #AA0F7E;
+}
+
+.honour,.shopname,.name,.optration {
+	color: #FFF;
+	width: 224px;
+	float: left;
+	text-align: center;
+	font: 16px/30px "微软雅黑";
+}
+
+.shop {
+	width: 900px;
+	height: 36px;
+	line-height: 36px;
+	margin: 2px 50px 10px 50px;
+	background-color: #EEE;
+	border: 1px solid #92a7eb;
+}
+
+.shop .honour,.shop .shopname,.shop .name,.shop .optration {
+	height: 36px;
+	width: 224px;
+	float: left;
+	color: #000;
+	text-align: center;
+}
+
+.shop .honour {
+	color: #e00000;
+	font-weight: 800;
+}
+
+.shop .optration a {
+	color: #e00000;
+	text-decoration: none;
+	display: block;
+}

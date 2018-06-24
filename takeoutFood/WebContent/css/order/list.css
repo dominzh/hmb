@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wo {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.ordertList {
+	text-align: center;
+	height: 150px;
+	margin-top: 50px;
+}
+
+.spanEmpty {
+	margin-top: 50px;
+	font: 18px/20px "微软雅黑";
+}
+
+.ordertList a {
+	font: 12px/14px "微软雅黑";
+}
+/* 头部导航 */
+.top {
+	position: relative;
+	height: 30px;
+	z-index: 20;
+	margin-bottom: 2px;
+}
+
+.divTop {
+	border-bottom: 1px solid #eee;
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.orderBox {
+	border-bottom: 8px solid #fff;
+	position: relative;
+}
+.orderBox .logo{
+	width:200px;
+	height:80px;
+}
+span.order {
+	color: #777;
+	position: absolute;
+	top: 44px;
+	font-size: 18px;
+}
+/* 订单导航 */
+.orderTitle {
+	background-color: #AA0F7E;
+	height: 30px;
+	text-decoration: center;
+	color:#fff;
+}
+
+.goodsMgs {
+	text-decoration: center;
+	float: left;
+	width: 450px;
+	height: 30px;
+	text-align: center;
+	font: 14px/30px "微软雅黑";
+}
+
+.price,.shop,.num,.totalPrice,.state,.operation {
+	float: left;
+	width: 90px;
+	height: 30px;
+	font: 14px/30px "微软雅黑";
+	text-align: center;
+}
+/* 商品详情 */
+.orderList {
+	margin-top: 10px;
+	border: 1px solid #d7b6b1;
+	overflow: hidden;
+	/* background-color:#eee; */
+}
+
+.centerBox {
+	height: 100px;
+	position: relative;
+	border-bottom: 1px solid #AA0F7E;
+}
+
+.orderId {
+	height: 25px;
+	padding-left: 3px;
+	font: 12px/25px "微软雅黑";
+
+	background-color: #EEAEEE;
+}
+
+.orderList div.boxLeft {
+	float: left;
+}
+
+.orderList div.boxRight {
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+
+.goodsMgs {
+	width: 448px;
+}
+
+.goodsImg {
+	display: block;
+	width: 80px;
+	margin: 5px 0;
+	position: absolute;
+	left: 10px;
+}
+
+.goodsSpan {
+	width: 291px;
+	text-align: left;
+	position: absolute;
+	left: 100px;
+	top: 28px;
+	line-height: 16px;
+}
+
+.appraise {
+	border: 0;
+	background-color: #FFF;
+	display: block;
+	text-align: center;
+	width: 79px;
+	cursor: pointer;
+	color: #488edc;
+	outline: none;
+}
+
+.totalPrice_t {
+	color: #c30;
+	font-weight: bold;
+	float: left;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.opration2 {
+	position: relative;
+	top: -15px;
+	height: 90px;
+	font: 14px/23px "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+	color: #AA0F7E;
+}
+
+a:visited {
+	color: #AA0F7E;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+a.link2 {
+	border: 1px solid #ffffff;
+	display: inline-block;
+}
+
+a.link2:HOVER {
+	border: 1px solid #d0d0d0;
+	display: inline-block;
+}
+
+a.link2:active {
+	border: 1px dotted #404040;
+	display: inline-block;
+}
+
+.pagerBox {
+	position: relative;
+	height: 70px;
+}
+
+.pager {
+	position: fixed;
+	bottom: 0;
+	height: 58px;
+	width: 100%;
+}

@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+
+<
+style type ="text /css">* {
+	margin: 0;
+	padding: 0;
+}
+
+.wa {
+	width: 1000px;
+	margin: 0 auto;
+}
+.wa a:hover{
+	color:#aa0f7e;
+}
+.top {
+	border-bottom: 2px solid #d7b6b1;
+	margin: 5px 0 10px 0;
+}
+
+.wa .logo{
+	width:200px;
+	height:80px;
+}
+h4{
+	text-align: center;
+}
+
+.top a {
+	font: 14px/14px "微软雅黑";
+	color: #888;
+}
+
+div.bigBox {
+	height: 600px;
+	margin-top: 30px;
+	position: relative;
+	/* background-color:pink; */
+}
+
+ul {
+	list-style: none;
+}
+
+.img,.content {
+	position: absolute;
+}
+
+.img {
+	left: 52px;
+	top: 32px;
+	border-radius: 20px;
+}
+
+.content {
+	height: 368px;
+	width: 1000px;
+	border: 1px solid #EEE;
+	top: -8px;
+}
+
+.text {
+	height: 132px;
+	width: 619px;
+	resize: none;
+	font: 400 14px/20px "微软雅黑";
+	color: #999;
+	padding: 2px 5px;
+	position: absolute;
+	right: 70px;
+	top: 50px;
+	border: 1px solid #eee;
+	outline: none
+}
+
+.score {
+	position: absolute;
+	top: 226px;
+	left: 324px;
+}
+
+.comment {
+	color: #CCCCCC;
+	position: relative;
+	left: 51px;
+	top: -40px;
+}
+
+.spanFist {
+	display: block;
+	width: 480px;
+	height: 22px;
+	padding: 11px 2px 3px 10px;
+	position: absolute;
+	left: 300px;
+	overflow: hidden;
+}
+
+.comment li {
+	float: left;
+	cursor: pointer;
+	font: 35px/35px "宋体";
+}
+
+.content .btn {
+	width: 80px;
+	height:30px;
+	position: absolute;
+	bottom: 52px;
+	right: 100px;
+	background-color: #fffbfb;
+	border-color: #e1dcdc;
+	border-radius: 12px;
+}
+
+.content .btn:hover {
+	color: #FFF;
+	background-color: #aa0f7e;
+	
+}
+</
+style
+>

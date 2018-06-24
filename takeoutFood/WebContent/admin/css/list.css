@@ -1,0 +1,84 @@
+a {
+	text-decoration: none;
+	color: #AA0F7E;
+}
+
+a:visited {
+	color: #AA0F7E;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+.wm{
+	width:1000px;
+}
+.btn{
+	position: relative;
+    height: 20px;
+}
+.orderBtn,.addBtn{
+    display: block;
+    width: 113px;
+    height: 25px;
+    position: absolute;
+    font: 14px/25px "微软雅黑";
+    text-align: center;
+    color:#AA0F7E;
+}
+
+.addBtn{
+	left:127px;
+}
+.orderBtn:hover,.addBtn:hover{
+	border-radius: 20px;
+	background-color: #AA0F7E;
+	color: #FFF;
+}
+.main {
+	margin: 10px auto 0;
+	position:relative;
+	text-align: center;
+}
+.box{
+	padding:0 50px;
+}
+
+.trTitle{
+	width:900px;
+	height:26px;
+	background-color:#AA0F7E;
+	float:left;
+}
+.thTop{
+	float:left;
+	width:300px;
+	color:#FFF;
+	font:800 14px/26px "微软雅黑";
+}
+.trOneLevel{
+	width:900px;
+	height:26px;
+	background-color:#EEAEEE;
+	float: left;
+}
+.twoTop{
+	float:left;
+	width:300px;
+	font:500 14px/26px "微软雅黑";
+}
+.operation a{
+	color:#FFF;
+}
+.trTwoLevel{
+	width:900px;
+	height:26px;
+	background-color:#eee;
+	float:left;
+}
+.threeTop{
+	float:left;
+	width:300px;
+	font:500 14px/26px "微软雅黑";
+}

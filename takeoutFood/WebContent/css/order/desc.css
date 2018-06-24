@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wd {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.top {
+	border-bottom: 2px solid #AA0F7E;
+	margin: 5px 0 10px 0;
+}
+
+.top a {
+	font: 14px/14px "微软雅黑";
+	color:rgb(136, 136, 136);
+}
+
+.top .logo{
+	width:200px;
+	height:80px;
+}
+
+.divRow {
+	width: 998px;
+}
+
+table {
+	font-size: 10pt;
+	width: 935px;
+}
+
+.tableDiv {
+	margin: 10px;
+}
+
+.tt {
+	border-top: 1px solid #e1ddd4;
+	border-bottom: 1px solid #e1ddd4;
+	height: 38px;
+	background-color: #EEAEEE;
+}
+
+.td {
+	border-bottom: 1px solid #f0f0f0;
+	width: 100px;
+}
+
+.descTitle {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.descTitle td {
+	height: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: #018BD3;
+}
+
+a:visited {
+	color: #aa0f7e;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.divOrder {
+	font: 15px/60px "微软雅黑";
+	text-align: center;
+}
+
+.divContent,.divContent2,.appraiseResult {
+	width: 956px;
+	border: 2px solid #AA0F7E;
+	padding-top: 10px;
+	padding: 10px 20px;
+	border-radius: 14px;
+	border-bottom: 0;
+	border-top: 0;
+}
+
+.divContent {
+	margin-top: 14px;
+	border-color: #AA0F7E;
+	border-style: solid;
+	border-top-width: 2px;
+}
+.line{
+	border-color: #AA0F7E;
+    border-style: dashed;
+    border-top-width: 1px;
+    border-bottom: 0;
+    width: 948px;
+    margin: 0 auto;
+}
+.divContent2 {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.appraiseResult {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-color: #AA0F7E;
+	border-style: solid;
+	border-bottom-width: 2px;
+}
+
+.appraiseResult span,dt {
+	font-size: 15px;
+	margin: 5px;
+	color: #000;
+}
+
+.appraiseResult div {
+	text-indent: 2em;
+	font: 300 14px/16px "微软雅黑";
+}
+
+.div2 {
+	border-bottom: 1px solid #f2e2d4;
+}
+
+td .goodsname {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	width: 300px;
+}
+
+.price_t {
+	font-size: 15px;
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tab a:visited {
+	color: #018BD3;
+}
+
+.tab a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}

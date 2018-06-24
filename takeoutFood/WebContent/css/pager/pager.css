@@ -1,0 +1,70 @@
+.bold {font-weight: 900;}
+.divBody {
+	height: 35px;
+    width: 100%;
+    text-align: center;
+    padding: 11px 0;
+    border-top: 1px solid #AA0F7E;
+    background-color:#f4eff4;
+}
+.divContent {
+	line-height: 35px;
+	margin-right: 15px;
+}
+.spanBtnSelect {
+	border: 1px solid #fa7333;
+    color: #FFFFFF;
+    background-color: #AA0F7E;
+    text-align: center;
+    padding: 4px 8px 3px 8px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.aBtn {
+	border: 1px solid #e3adad;
+    text-align: center;
+    background-color: #faeeee;
+    color: #030000;
+    padding: 4px 8px 3px 8px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.spanBtnDisabled {
+	border: 1px solid #e3adad;
+	text-align:center; 
+	 background-color: #faeeee;
+	color: #c1c1c1;
+	padding: 4px 8px 3px 8px;
+	font-weight: 900;
+	border-radius: 8px;
+}
+.spanApostrophe {
+	font-family: Arial;
+}
+.aBtn:HOVER {
+	border: 1px solid #fa7333;
+    color: #FFFFFF;
+    background-color: #AA0F7E;
+}
+
+.inputPagecode {
+	border: 1px solid #e3adad;
+    border-radius: 2px;
+    width: 40px;
+    padding: 0px;
+    text-align: center;
+    outline:none;
+}
+.aSubmit {
+	border: 1px solid #e3adad;
+	padding:1px 4px 1px 4px;
+	color: #555555;
+	text-decoration: none;
+}
+.aSubmit:HOVER {
+	border: 1px solid #e3adad;
+    padding: 1px 4px 1px 4px;
+    color: #FFF;
+    background-color: #00B2EE;
+    text-decoration: none;
+}

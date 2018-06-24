@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wo{
+	width:1000px;
+	margin:0 auto;
+}
+
+
+
+/* 订单头部导航 */
+p.pLink{
+	position:relative;
+	height:28px;
+	margin:4px;
+}
+p.pLink a{
+	display:block;
+	float:left;
+	color: #543192;
+	text-align: center;
+	width:75px;
+}
+p.pLink a:hover{
+	text-decoration: none;
+	color:#FFF;
+	background-color: #543192;
+    border-radius: 16px;
+}
+p.pLink span{
+	float:left;
+}
+/* 订单头部标题导航 */
+.orderTitle{
+	background-color:#AA0F7E;
+	height:30px;
+	color: #fff;
+	text-decoration:center;
+}
+.goodsMgs{
+	text-decoration:center;
+	float:left;
+	width:450px;
+	height:30px;	
+	text-align: center;
+	font:14px/30px "微软雅黑";
+}
+.price,.num,.totalPrice,.state
+,.operation{
+	float:left;
+	width:110px;
+	height:30px;
+	font:14px/30px "微软雅黑";
+	text-align: center;
+}
+/* 商品详情 */ 
+.orderList{
+	margin-top:10px;
+	border:1px solid #4e4e4e;
+	overflow:hidden;
+	/* background-color:#eee; */
+}
+.centerBox{
+	height:100px;
+	position:relative;
+}
+.orderId{
+	height:25px;
+	padding-left:10px;
+	font:12px/25px "微软雅黑";
+	color: #fff;
+	background-color:#7a7a7a;
+}
+
+.orderList div.boxLeft{
+	float:left;
+}
+.orderList div.boxRight{
+	float:right;
+}
+.goodsMgs{
+	width:448px;
+	
+}
+.goodsImg{
+	display:block;
+	width:80px;
+	margin: 5px 0;
+	position:absolute;
+	left:10px;
+}
+.goodsSpan{
+	width: 320px;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+}
+.address{
+	color: red;
+    padding: 0 0 2px 20px;
+}
+
+.appraise{
+	border: 0;
+    background-color: #FFF;
+    display: block;
+    text-align: center;
+    width: 79px;
+    cursor: pointer;
+    color: #488edc;
+    outline:none;
+}
+
+
+.totalPrice_t {
+	color: #c30;
+    font-weight: bold;
+    float: left;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    font-size: 10pt;
+}
+.opration2{
+	position: relative;
+    top: 19px;
+    height: 90px;
+    font: 14px/23px "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+	color: #018BD3;
+}
+
+a:visited {
+	color: #018BD3;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+a.link2 {
+	border: 1px solid #ffffff;
+	display: inline-block;
+}
+
+a.link2:HOVER {
+	border: 1px solid #d0d0d0;
+	display: inline-block;
+}
+
+a.link2:active {
+	border: 1px dotted #404040;
+	display: inline-block;
+}
+.pagerBox{
+	position: relative;
+    height: 70px;
+}
+.pager{
+	position: fixed;
+    bottom: 0;
+    height:58px;
+    width: 100%;
+}

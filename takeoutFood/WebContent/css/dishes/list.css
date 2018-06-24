@@ -1,0 +1,183 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 734px;
+}
+.w {
+	width: 1000px;
+	margin: 0 auto;
+}
+.w .logo{
+	width:200px;
+	height:80px;
+}
+.wg {
+	background-color: #FFF;
+	height: 734px;
+}
+
+.top {
+	border-bottom: 2px solid #AA0F7E;
+	margin: 5px 0 10px 0;
+}
+
+.top a {
+	font: 14px/14px "微软雅黑";
+	color: #888;
+	margin-left:20px;
+}
+.top a:hover{
+	color:#aa0f7a;
+}
+/*空列表  */
+.emptyList {
+	text-align: center;
+	height: 150px;
+	margin-top: 50px;
+}
+
+.spanEmpty {
+	margin-top: 50px;
+	font: 20px/25px "微软雅黑";
+	color: red;
+}
+/* 排序 */
+.sort {
+	height: 32px;
+	border-bottom: 2px solid #CD1076;
+	margin: 0 0 8px 0;
+}
+
+.sort a{
+	display: block;
+	float: left;
+	height: 28px;
+	font: 14px/28px "微软雅黑";
+	margin: 4px 20px 8px 0;
+	color: #EE00EE;
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+}
+
+.sort a:hover {
+	color: red;
+	background-color: rgba(255, 240, 234, 1);
+	border-radius: 15px;
+}
+
+.pic {
+	display: block;
+	position: relative;
+	margin-bottom: 3px;
+	width: 200px;
+	height: 200px;
+}
+
+.inner {
+	overflow: hidden;
+	text-overflow: ellipsis; /*当对象内文本溢出时将溢出的部分裁切掉显示省略标记...*/
+	word-break: keep-all;/*DIV的内容自动换行*/
+	white-space: nowrap; /*强制在同一行显示*/
+	border: 1px solid #EEE;
+	padding: 16px 16px 0;
+	position: absolute;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	width: 240px;
+	height: 309px;
+	line-height: 18px;
+	position: relative;
+}
+
+li div {
+	margin-bottom: 1px;
+	margin-left: 10px;
+}
+
+body,ul,li,p,img,div {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 12px;
+	n
+}
+
+.pager {
+	position: fixed;
+	bottom: 0;
+}
+
+li img {
+	width: 200px;
+	height: 200px;
+}
+
+.price {
+	padding-bottom: 3px;
+	color: #878787;
+}
+
+.price_n {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+.price_s {
+	color: #c30;
+	font-family: Arial;
+}
+
+.price_r {
+	color: #878787;
+	text-decoration: line-through;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+#foodsname {
+	text-decoration: underline;
+	color: #555555;
+	display: block;
+	overflow: hidden;
+	width: 200px;
+	font-family: Arial;
+}
+
+#foodsname:hover {
+	color: #FF6600;
+}
+
+.inner a {
+	color: #018BD3;
+}
+
+.inner a:hover {
+	color: #FF6600;
+}
+
+.inner a:visid {
+	color: #018BD3;
+}
+
+.pagerBox {
+	position: relative;
+	height: 70px;
+}
+
+.pager {
+	position: fixed;
+	bottom: 0;
+	height: 58px;
+	width: 100%;
+}
